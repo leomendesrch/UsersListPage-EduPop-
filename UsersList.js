@@ -1,8 +1,8 @@
 // carrega o cabeçalho e o footer na pagina.
 $(        
     function () {
-        $("#tagCabecalho").load("./cabecalho.html");
-        $("#tagRodape").load("./rodape.html");
+        $("#tagCabecalho").load("./cabecalhoerodape/cabecalho.html");
+        $("#tagRodape").load("./cabecalhoerodape/rodape.html");
 
     // aguarda o carregamento do cabeçalho para inserir a logo.
         setTimeout(() => {
