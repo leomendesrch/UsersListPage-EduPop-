@@ -1,8 +1,8 @@
 // carrega o cabeçalho e o footer na pagina.
 $(        
     function () {
-        $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
-        $("#tagRodape").load("../Rodapé/rodape.html");
+        $("#tagCabecalho").load("./cabecalho.html");
+        $("#tagRodape").load("./rodape.html");
 
     // aguarda o carregamento do cabeçalho para inserir a logo.
         setTimeout(() => {
@@ -32,9 +32,9 @@ function InserirListUsuariosJson() {
             gender: "feminino"
         },
         {
-            username: "marcio_silva",
-            nome: "Márcio da Silva",
-            email: "marcio_silva@hotmail.com",
+            username: "victor_neiva",
+            nome: "Victor Neiva Gaspardini da Silva",
+            email: "vitin_ussop22@hotmail.com",
             pais: "Brasil",
             gender: "masculino"
         },
